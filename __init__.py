@@ -1,4 +1,4 @@
-import os
+""" import os
 from flask import Flask
 from dotenv import load_dotenv
 from pymongo import MongoClient
@@ -18,3 +18,4 @@ def create_app():
 
     app.register_blueprint(pages)
     return app
+ """

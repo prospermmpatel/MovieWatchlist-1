@@ -13,8 +13,8 @@ from flask import (
     url_for,
     request,
 )
-from movie_library.forms import LoginForm, RegisterForm, MovieForm, ExtendedMovieForm
-from movie_library.models import User, Movie
+from forms import LoginForm, RegisterForm, MovieForm, ExtendedMovieForm
+from models import User, Movie
 from passlib.hash import pbkdf2_sha256
 
 
