@@ -6,7 +6,7 @@ from routes import pages
 
 load_dotenv()
 
-MONGODB_URI="mMONGODB_URI=mongodb://movieDB:Mongo123/127.0.0.1:27017/movie-watchlist"
+MONGODB_URI="mongodb://mongo:U6jPLKApN8UBaWs1LbYK@containers-us-west-61.railway.app:7708"
 app = Flask(__name__)
 app.config["MONGODB_URI"] = MONGODB_URI
 app.config["SECRET_KEY"] = os.environ.get(
